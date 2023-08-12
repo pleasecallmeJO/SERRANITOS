@@ -1,0 +1,7 @@
+/* media queries starts here*/
+@media (min-width:1px) and (max-width: 550px) {
+    #logo {
+        border-radius: 5px;
+        width: 90px;
+    }
+}
