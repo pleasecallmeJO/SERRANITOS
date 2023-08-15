@@ -1,27 +1,33 @@
 /* media queries  here*/
 @media (min-width:1px) and (max-width: 550px) {
 #logo {
-    border-radius: 5px;
-    width: 90px;
-    }
+border-radius: 5px;
+width: 90px;
+}
 #frasco {
 width: 116px;
 height: auto;
 align-items: center;
 }
+.footer-icon {
+border-radius: 5px;
+width: 120px;
+height: fit-content;
+}
 }
 /*<!---  Carruel  content --->*/
 .carousel-inner{
-    max-height:40rem;
+ max-height:40rem;
 }
 /*<!--- GRID content --->*/
 .col{
-    padding: 5px;
-    margin: 5px;
-    border: 3px solid black;
+padding: 5px;
+margin: 5px;
+border: 3px solid black;
 }
 #frasco{
-    width: 300px;
-    height: auto;
-    align-items: center;
+width: 300px;
+height: auto;
+align-items: center;
 }
+/*<!--- Footer content --->*/
