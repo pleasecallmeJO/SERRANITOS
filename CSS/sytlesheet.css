@@ -10,6 +10,12 @@
         height: auto;
         align-items: center;
     }
+    
+    .footer-icon {
+        border-radius: 5px;
+        width: 120px;
+        height: fit-content;
+    }
 }
 
 /*<!---  Carruel  content --->*/
