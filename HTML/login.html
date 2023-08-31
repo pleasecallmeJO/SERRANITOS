@@ -24,6 +24,9 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="./index.html">SHOP</a>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./">ABOUT US</a>
+            /li>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> RECIPES </a>
@@ -71,7 +74,7 @@
 <main>
   <div class="costumer.login">
     <div class="container">
-      <div class="row mt-5 mb-5">
+      <div class="row mt-5 mb-5 needs-validation" nonvalidate>
         <div class="login col-12 col-lg-6">
           <h1 class=""> Login</h1>
           <div class="col-md-8">
@@ -143,21 +146,31 @@
                     <option selected>Choose...</option>
                     <option>...</option>
                   </select>
-                  <div class="valid-feedback">OK</div>
-                  <div class="invalid-feedback">Please select a valid state</div>
                 </div>
+              </div>
+              <div class="col-md-4">
+                <label for="validationCustom04" class="form-label">State</label>
+                <select class="form-select" id="validationCustom04" required>
+                  <option selected disabled value="">Choose...</option>
+                  <option>...</option>
+                </select>
+                <div class="invalid-feedback">
+                  Please select a valid state.
+                </div>
+              </div>
                 <div class="col-md-4">
                   <label for="validationZip" class="form-label">Zip Code</label>
                   <input type="text" class="form-control" id="validationZip" required>
                   <div class="valid-feedback">OK</div>
                   <div class="invalid-feedback">Please provide a valid zip</div>
                 </div>
-                <div class="col-auto">
+                <div class="col-12">
                   <div class="form-check">
                     <input class="form-check-input" type="checkbox" id="autoSizingCheck">
                     <label class="form-check-label" for="invalidCheck"> Remember me </label>
                     <div class="invalid-feedback">Must agree before submitting</div>
                   </div>
+                </div>
                   <div class="col-12">
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" id="gridCheck">
@@ -172,7 +185,6 @@
         </div>
       </div>
     </div>
-  </div>
 </main>
 <!--- Customer form login/register ends here--->
 <!--- Footer starts here--->
