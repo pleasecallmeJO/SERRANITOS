@@ -12,7 +12,7 @@
       crossorigin="anonymous"
     />
     <!-- CSS tag -->
-    <link rel="stylesheet" type="text/css" href="../CSS/sytlesheet.css" />
+    <link rel="stylesheet" type="text/css" href="../CSS/aboutus.css" />
     <title>Serranitos: The real spicy</title>
   </head>
   <body>
@@ -47,11 +47,13 @@
                 href="./aboutus.html"
                 >ABOUT US</a
               >
+              /li>
             </li>
+
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href=""
+                href="./recipes.html"
                 id="navbarDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -99,7 +101,7 @@
               ></path>
             </svg>
           </a>
-          <button type="button" class="btn btn-dark">
+          <button type="button" class="btn btn-dark" href="">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="28"
@@ -117,158 +119,58 @@
       </div>
     </nav>
     <!--- Nav bar content end--->
-    <!---  Carruel  content starts--->
-    <div
-      id="carouselExampleCaptions"
-      class="carousel slide"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-      </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="3000">
-          <img
-            src="../IMG/index/ingredientes-salsa-macha.jpg.webp"
-            class="d-block w-100"
-            alt="slide1"
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Crafted with Tradition</h5>
-            <p>.</p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="3000">
-          <img
-            src="../IMG/index/desayuno.jpg"
-            class="d-block w-100"
-            alt="slide2"
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Love at first sith</h5>
-            <p>.</p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="3000">
-          <img
-            src="../IMG/index/zoomsalsa.jpg"
-            class="d-block w-100"
-            alt="slide3"
-          />
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Goes with everything</h5>
-            <p>.</p>
-          </div>
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleCaptions"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <!---  Carruel  content end--->
-    <!--- GRID stars here--->
-    <div class="container-fluid">
-      <div class="row text-center">
-        <div class="col mt-5 mb-3">
-          <img class="frasco" src="../IMG/index/envase1.png" />
-          <h1>$8.99</h1>
-        </div>
-        <div class="col mt-5 mb-3">
-          <img class="frasco" src="../IMG/index/envase2.png" />
-          <h1>$8.99</h1>
-        </div>
-        <div class="col mt-5 mb-3">
-          <img class="frasco" src="../IMG/index/envase3.png" />
-          <h1>$8.99</h1>
-        </div>
-        <div class="col mt-5 mb-3">
-          <img class="frasco" src="../IMG/index/envase4.png" />
-          <h1>$8.99</h1>
-        </div>
-      </div>
-    </div>
-    <!--- GRID ends here--->
-    <!--CARTPROMO stars here-->
+    <!---Section Hero start here --->
     <div class="container">
-      <div class="text-center">
-        <div class="row">
-          <div class="col">
-            <img src="../IMG/index/packmixsauce.png" alt="" />
-          </div>
-          <div class="col">
-            <h1>Want to try them all?</h1>
-            <h3>Order the group sauce package</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Doloremque est explicabo voluptate quisquam nemo quod facilis,
-              atque rem voluptatem, placeat nam eum! Asperiores porro
-              consectetur minus, eligendi veniam pariatur assumenda!
-            </p>
-            <p>
-              Only for a limited time! We offer 10% off the original price for
-              the the 3 Pack 9oz. and the Mix 4 Pack 9oz and 20% off the
-              original price for the 12 unit case of 9oz.
-            </p>
-            <h1>$32.97</h1>
-            <div class="col-auto">
-              <label>Quantity</label>
-              <select
-                class="form-select"
-                id="Quantitychoose"
-                aria-describedby="validationServer04Feedback"
-                required
-              >
-                <option selected disabled value="">Choose...</option>
-                <option>4 pack mix - 1</option>
-                <option>4 pack mix - 2</option>
-                <option>4 pack mix - 3</option>
-                <option>4 pack mix - 4</option>
-              </select>
-            </div>
-            <div class="col-auto mt-5">
-              <button type="button" class="btn-lg btn-outline-danger">
-                Add To Cart
-              </button>
-            </div>
+      <div class="row">
+        <div class="col">
+          <h1>OUR STORY</h1>
+          <h2>Serranitos is Crafted with Tradition</h2>
+          <p>
+            Sauce Serranitos are a household brand in Mexico with a strong
+            presence in all 32 states. However, its unique spice and global
+            taste became so popular that it unleashed a demand beyond its
+            Hispanic roots. Today, we have successfully entered the North
+            American, European and Asian markets as the exclusive brand of Salsa
+            Macha. Our salsas can be used as an ingredient for exquisite dishes
+            or as a stand-alone sauce for a wide variety of foods including
+            steak, seafood, stews, pizzas, burgers, sushi, Mexican bites and
+            more. With the right touch of spice, Salsas Don Emilio can transform
+            any basic dish and make it extraordinary.
+          </p>
+        </div>
+        <div class="col-lg-6 col-sm-12">
+          <div class="container-img">
+            <img src="../IMG/AboutUs/Salsa-Macha.jpg" />
           </div>
         </div>
       </div>
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+          <div class="container-img">
+            <img src="../IMG/AboutUs/opentaco.jpeg" />
+          </div>
+        </div>
+        <div class="col">
+          <h1>OUR VALUES</h1>
+          <p>
+            Delivering products at the highest standards starts with these three
+            essential elements: a deep respect for ingredients, a trust in the
+            several thousand-years old techniques of our craftsmen, and a core
+            belief in developing natural products that steer away from using
+            preservatives or additives. Serranitos is a brand that values family
+            and tradition. We take great care of the entire chain that is
+            involved in our product. From the farmers who grow our chilis, the
+            workers who smoke them in our special blend of wood, our grinding
+            experts that ensure quality consistency, and our artisans who craft
+            our end-products, to the supermarket chains that distribute them,
+            the restaurants that use them to enhance their meals, and especially
+            our clients who enjoy our products from all around the world. We are
+            centered in producing unmatched quality and flavors.
+          </p>
+        </div>
+      </div>
     </div>
-    <!-- CARTPROMO ends here-->
+    <!-- Section Hero ends here -->
     <!--- Footer starts here--->
     <footer class="d-flex flex-colum bg-dark">
       <div class="container-fluid row">
