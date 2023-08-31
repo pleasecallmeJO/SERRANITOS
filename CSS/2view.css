@@ -23,6 +23,15 @@
     }
     @media (min-width: 768px){
     .col-sm-6 {
+      width: 50%;
+    }
+  }
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+
     width: 50%;
     float: left;
 
