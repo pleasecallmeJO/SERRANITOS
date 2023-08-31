@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- CSS tag -->
+    <link rel="stylesheet" type="text/css" href="../CSS/sytlesheet.css" />
+    <title>Serranitos: The real spicy</title>
+  </head>
+  <body>
+    <!--- Nav bar content--->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <div class>
+          <img id="logo" src="../IMG/imagenlogo/logohead.png" />
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >SHOP</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./aboutus.html"
+                >ABOUT US</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href=""
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                RECIPES
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="./recipes.html">CHICKEN</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./recipes.html">BEEF</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./recipes.html">SEAFOOD</a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./recipes.html">VEGETARIAN</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item"></li>
+          </ul>
+          <a type="button" class="btn btn-dark" href="./login.html">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+              fill="currentColor"
+              class="bi bi-person"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"
+              ></path>
+            </svg>
+          </a>
+          <button type="button" class="btn btn-dark">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="28"
+              height="28"
+              fill="currentColor"
+              class="bi bi-cart3"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+              ></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!--- Nav bar content end--->
+    <!---  Carruel  content starts--->
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3000">
+          <img
+            src="../IMG/index/ingredientes-salsa-macha.jpg.webp"
+            class="d-block w-100"
+            alt="slide1"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Crafted with Tradition</h5>
+            <p>.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img
+            src="../IMG/index/desayuno.jpg"
+            class="d-block w-100"
+            alt="slide2"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Love at first sith</h5>
+            <p>.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3000">
+          <img
+            src="../IMG/index/zoomsalsa.jpg"
+            class="d-block w-100"
+            alt="slide3"
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Goes with everything</h5>
+            <p>.</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!---  Carruel  content end--->
+    <!--- GRID stars here--->
+    <div class="container-fluid">
+      <div class="row text-center">
+        <div class="col mt-5 mb-3">
+          <img class="frasco" src="../IMG/index/envase1.png" />
+          <h1>$8.99</h1>
+        </div>
+        <div class="col mt-5 mb-3">
+          <img class="frasco" src="../IMG/index/envase2.png" />
+          <h1>$8.99</h1>
+        </div>
+        <div class="col mt-5 mb-3">
+          <img class="frasco" src="../IMG/index/envase3.png" />
+          <h1>$8.99</h1>
+        </div>
+        <div class="col mt-5 mb-3">
+          <img class="frasco" src="../IMG/index/envase4.png" />
+          <h1>$8.99</h1>
+        </div>
+      </div>
+    </div>
+    <!--- GRID ends here--->
+    <!--CARTPROMO stars here-->
+    <div class="container">
+      <div class="text-center">
+        <div class="row">
+          <div class="col">
+            <img src="../IMG/index/packmixsauce.png" alt="" />
+          </div>
+          <div class="col">
+            <h1>Want to try them all?</h1>
+            <h3>Order the group sauce package</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloremque est explicabo voluptate quisquam nemo quod facilis,
+              atque rem voluptatem, placeat nam eum! Asperiores porro
+              consectetur minus, eligendi veniam pariatur assumenda!
+            </p>
+            <p>
+              Only for a limited time! We offer 10% off the original price for
+              the the 3 Pack 9oz. and the Mix 4 Pack 9oz and 20% off the
+              original price for the 12 unit case of 9oz.
+            </p>
+            <h1>$32.97</h1>
+            <div class="col-auto">
+              <label>Quantity</label>
+              <select
+                class="form-select"
+                id="Quantitychoose"
+                aria-describedby="validationServer04Feedback"
+                required
+              >
+                <option selected disabled value="">Choose...</option>
+                <option>4 pack mix - 1</option>
+                <option>4 pack mix - 2</option>
+                <option>4 pack mix - 3</option>
+                <option>4 pack mix - 4</option>
+              </select>
+            </div>
+            <div class="col-auto mt-5">
+              <button type="button" class="btn-lg btn-outline-danger">
+                Add To Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- CARTPROMO ends here-->
+    <!--- Footer starts here--->
+    <footer class="d-flex flex-colum bg-dark">
+      <div class="container-fluid row">
+        <div class="col-4">
+          <img
+            class="footer-icon"
+            src="../IMG/imagenlogo/logohead.png"
+            alt="footer logo"
+          />
+        </div>
+        <div class="col-sm-12 col-lg-2">
+          <ul>
+            <li>
+              <h3>
+                <a class="link-light" href="">PRODUCTOS</a>
+              </h3>
+            </li>
+            <li>
+              <a class="link-light" href="">Salsa Serrana Clasica</a>
+            </li>
+            <li>
+              <a class="link-light" href="">Chicharron de Chile</a>
+            </li>
+            <li>
+              <a class="link-light" href="">Salsa Serrana Semillas</a>
+            </li>
+            <li>
+              <a class="link-light" href="">Serrana Habanera</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-lg-6 text-white">
+          <div class="fs-5 mb-3">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="22"
+              height="22"
+              fill="white"
+              class="bi bi-envelope-at-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M2 2A2 2 0 0 0 .05 3.555L8 8.414l7.95-4.859A2 2 0 0 0 14 2H2Zm-2 9.8V4.698l5.803 3.546L0 11.801Zm6.761-2.97-6.57 4.026A2 2 0 0 0 2 14h6.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.606-3.446l-.367-.225L8 9.586l-1.239-.757ZM16 9.671V4.697l-5.803 3.546.338.208A4.482 4.482 0 0 1 12.5 8c1.414 0 2.675.652 3.5 1.671Z"
+              />
+              <path
+                d="M15.834 12.244c0 1.168-.577 2.025-1.587 2.025-.503 0-1.002-.228-1.12-.648h-.043c-.118.416-.543.643-1.015.643-.77 0-1.259-.542-1.259-1.434v-.529c0-.844.481-1.4 1.26-1.4.585 0 .87.333.953.63h.03v-.568h.905v2.19c0 .272.18.42.411.42.315 0 .639-.415.639-1.39v-.118c0-1.277-.95-2.326-2.484-2.326h-.04c-1.582 0-2.64 1.067-2.64 2.724v.157c0 1.867 1.237 2.654 2.57 2.654h.045c.507 0 .935-.07 1.18-.18v.731c-.219.1-.643.175-1.237.175h-.044C10.438 16 9 14.82 9 12.646v-.214C9 10.36 10.421 9 12.485 9h.035c2.12 0 3.314 1.43 3.314 3.034v.21Zm-4.04.21v.227c0 .586.227.8.581.8.31 0 .564-.17.564-.743v-.367c0-.516-.275-.708-.572-.708-.346 0-.573.245-.573.791Z"
+              />
+            </svg>
+            Subscribe to our Recipe e-book
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="email"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-danger" type="submit">
+                Subscribe
+              </button>
+            </form>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              fill="white"
+              class="bi bi-telephone-inbound-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM15.854.146a.5.5 0 0 1 0 .708L11.707 5H14.5a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5v-4a.5.5 0 0 1 1 0v2.793L15.146.146a.5.5 0 0 1 .708 0z"
+              />
+            </svg>
+            Contact us
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--Footer ends here-->
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+</html>
