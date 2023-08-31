@@ -1,28 +1,29 @@
 /* media queries  here*/
-    @media (min-width:1px) and (max-width: 550px) {
+@media (min-width: 1px) and (max-width: 550px) {
     #logo {
-    border-radius: 5px;
-    width: 90px;
+      border-radius: 5px;
+      width: 90px;
     }
     .footer-icon {
-    border-radius: 5px;
-    width: 180px;
-    height: fit-content;
+      border-radius: 5px;
+      width: 180px;
+      height: fit-content;
     }
-    }
-    @media (min-width: 992px){
+  }
+  @media (min-width: 992px) {
     .container {
-    max-width: 970px;
+      max-width: 970px;
     }
-    }
-    .container {
+  }
+  .container {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    }
-    @media (min-width: 768px){
+  }
+  @media (min-width: 768px) {
     .col-sm-6 {
+<<<<<<< HEAD
     width: 50%;
     float: left;
 
@@ -31,3 +32,13 @@
     .costumer_login{
         border: green 2px;
     }
+=======
+      width: 50%;
+    }
+  }
+  .row {
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+  
+>>>>>>> Development
